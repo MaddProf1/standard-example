@@ -36,6 +36,8 @@ if (day == 0) { // day = 0 ***************** show this error
     day = "Saturday";
 }
 
+
+
 if (day == "Saturday" || day == "Sunday") {
     console.log("It's the weekend, no MAD9014 class today!");
 } else if (day == "Tuesday" || day == "Friday") {
